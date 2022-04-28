@@ -58,8 +58,8 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
   # Are we running as root?
   if [[ $EUID -ne 0 ]]; then
     # Welcome
-    message_box "Yiimpool Installer v1.0.3" \
-    "Hello and thanks for using the Yiimpool Installer v1.0.3!
+    message_box "Yiimpool Installer v1.0.3.1" \
+    "Hello and thanks for using the Yiimpool Installer v1.0.3.1!
     \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
     \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
   	source existing_user.sh
@@ -98,7 +98,7 @@ clear
 	echo
 	echo "-----------------------------------------------"
 	echo
-	echo Thank you for using the Yiimpool Installer v1.0.3!
+	echo Thank you for using the Yiimpool Installer v1.0.3.1!
 	echo
 	echo To run this installer anytime simply type, yiimpool!
 	echo Donations for continued support of this script are welcomed at:
