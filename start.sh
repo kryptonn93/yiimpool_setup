@@ -58,8 +58,8 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
   # Are we running as root?
   if [[ $EUID -ne 0 ]]; then
     # Welcome
-    message_box "Yiimpool Installer v1.0.4-beta" \
-    "Hello and thanks for using the Yiimpool Installer v1.0.4-beta!
+    message_box "Yiimpool Installer v1.0.4" \
+    "Hello and thanks for using the Yiimpool Installer v1.0.4!
     \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
     \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
   	source existing_user.sh
@@ -98,7 +98,7 @@ clear
 	echo
 	echo "-----------------------------------------------"
 	echo
-	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v1.0.4-beta! $COL_RESET"
+	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v1.0.4! $COL_RESET"
 	echo
 	echo -e "$YELLOW To run this installer anytime simply type: $GREEN yiimpool! $COL_RESET"
 	echo -e "$YELLOW Donations for continued support of this script are welcomed at: $COL_RESET"
