@@ -8,7 +8,7 @@
 #########################################################
 
 if [ -z "${TAG}" ]; then
-	TAG=v1.0.3
+	TAG=v1.0.4-beta
 fi
 
 # Clone the yiimpool repository if it doesn't exist.

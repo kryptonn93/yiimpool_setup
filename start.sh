@@ -58,8 +58,8 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
   # Are we running as root?
   if [[ $EUID -ne 0 ]]; then
     # Welcome
-    message_box "Yiimpool Installer v1.0.3" \
-    "Hello and thanks for using the Yiimpool Installer v1.0.3!
+    message_box "Yiimpool Installer v1.0.4-beta" \
+    "Hello and thanks for using the Yiimpool Installer v1.0.4-beta!
     \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
     \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
   	source existing_user.sh
@@ -98,14 +98,14 @@ clear
 	echo
 	echo "-----------------------------------------------"
 	echo
-	echo Thank you for using the Yiimpool Installer v1.0.3!
+	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v1.0.4-beta! $COL_RESET"
 	echo
-	echo To run this installer anytime simply type, yiimpool!
-	echo Donations for continued support of this script are welcomed at:
+	echo -e "$YELLOW To run this installer anytime simply type: $GREEN yiimpool! $COL_RESET"
+	echo -e "$YELLOW Donations for continued support of this script are welcomed at: $COL_RESET"
 	echo
-	echo BTC 3DvcaPT3Kio8Hgyw4ZA9y1feNnKZjH7Y21
-	echo BCH qrf2fhk2pfka5k649826z4683tuqehaq2sc65nfz3e
-	echo ETH 0x6A047e5410f433FDBF32D7fb118B6246E3b7C136
-	echo LTC MLS5pfgb7QMqBm3pmBvuJ7eRCRgwLV25Nz
+	echo -e "$YELLOW BTC: $CYAN bc1qpnxtg3dvtglrvfllfk3gslt6h5zffkf069nh8r $COL_RESET"
+	echo -e "$YELLOW DOGE: $CYAN DCj73fKJbHeDTJx7arz4z7bbknWkSDpD8h $COL_RESET"
+	echo -e "$YELLOW ETH: $CYAN  0x50C7d0BF9714dBEcDc1aa6Ab0E72af8e6Ce3b0aB $COL_RESET"
+	echo -e "$YELLOW LTC: $CYAN  ltc1qqw7cv4snx9ctmpcf25x26lphqluly4w6m073qw $COL_RESET"
 	cd ~
 fi
