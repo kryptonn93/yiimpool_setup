@@ -10,7 +10,7 @@ RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool v2.0" --m
 1 "YiiMP Single Server" \
 ' ' "- Daemon Wallet Builder -" \
 2 "Daemonbuilder" \
-' '"- Upgrade stratum server -" \
+' ' "- Upgrade stratum server -" \
 3 "Yiimp stratum update" \
 4 Exit)
 if [ $RESULT = ]
