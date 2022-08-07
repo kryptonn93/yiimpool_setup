@@ -10,7 +10,9 @@ RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool v2.0" --m
 1 "YiiMP Single Server" \
 ' ' "- Daemon Wallet Builder -" \
 2 "Daemonbuilder" \
-3 Exit)
+' '"- Upgrade stratum server -" \
+3 "Yiimp stratum update" \
+4 Exit)
 if [ $RESULT = ]
 then
 bash $(basename $0) && exit;
@@ -32,6 +34,12 @@ source bootstrap_coin.sh;
 fi
 
 if [ $RESULT = 3 ]
+then
+cd $HOME/yiimpool/install
+source bootstrap_upgrade.sh;
+fi
+
+if [ $RESULT = 4 ]
 then
 clear;
 exit;
