@@ -18,7 +18,6 @@ then
 bash $(basename $0) && exit;
 fi
 
-
 if [ $RESULT = 1 ]
 then
 clear;
