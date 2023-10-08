@@ -14,7 +14,7 @@ if [ ! -d $HOME/yiimpool/daemon_builder ]; then
 	echo Downloading yiimpool Daemon Builder Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/Afiniel-tech/yiimpool_coin_builder \
+		https://github.com/kryptonn93/yiimpool_coin_builder \
 		$HOME/yiimpool/daemon_builder \
 		< /dev/null 2> /dev/null
 
