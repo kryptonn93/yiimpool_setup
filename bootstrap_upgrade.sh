@@ -16,7 +16,7 @@ if [ ! -d $HOME/yiimpool/yiimp_upgrade ]; then
 	echo Downloading yiimpool YiiMP Stratum Upgrade Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/Afiniel-tech/yiimpool_yiimp_upgrade \
+		https://github.com/kryptonn93/yiimpool_yiimp_upgrade \
 		$HOME/yiimpool/yiimp_upgrade \
 		< /dev/null 2> /dev/null
 
